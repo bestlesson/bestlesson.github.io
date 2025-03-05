@@ -1,46 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-    <!-- This is just adding a comment to see if GitHub Desktop detects a change -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Lesson</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f9f9f9;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 600px;
-            margin: 50px auto;
-            background: white;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-        h1 {
-            color: #333;
-            /* Removed white-space: pre; to avoid preserving extra spaces */
-        }
-        p {
-            font-size: 18px;
-            color: #555;
-        }
-    </style>
+<head>
+  <meta charset="UTF-8">
+  <title>Best Lesson</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-family: 'Futura', sans-serif; /* Fallback to sans-serif if Futura isn't available */
+      background-color: #f9f9f9;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+    }
+    h1 {
+      margin-top: 0;
+      color: #333;
+    }
+    p {
+      font-size: 18px;
+      color: #555;
+      line-height: 1.5;
+      margin-bottom: 0;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Best Lesson</h1>
-        <p>Best Lesson is an Edinburgh-based education start-up, helping teachers share great lesson ideas in short videos.</p>
-        <img src="DALL·E 2025-03-05 09.45.11 - A minimalist and modern text-based logo design for 'Best Lesson'. The logo uses only the Futura typeface in bold for clear readability. The design is .webp" alt="Best Lesson Logo">
-    </div>
+  <div class="container">
+    <h1>Best Lesson</h1>
+    <!-- Replace 'best-lesson-logo.jpg' with the actual filename of your attached image -->
+    <img src="best-lesson-logo.jpg" alt="Best Lesson Logo">
+    <p>Best Lesson is an Edinburgh-based education start-up, helping teachers share great lesson ideas in short videos.</p>
+  </div>
 </body>
 </html>
