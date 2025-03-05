@@ -27,6 +27,7 @@
         }
         h1 {
             color: #333;
+            white-space: pre; /* Ensures spacing is maintained */
         }
         p {
             font-size: 18px;
@@ -36,9 +37,9 @@
 </head>
 <body>
     <div class="container">
-        <h1>Best Lesson</h1>
+        <h1>Best   Lesson</h1>
         <p>Best Lesson is an Edinburgh-based education start-up, helping teachers share great lesson ideas in short videos.</p>
-        <img src="https://source.unsplash.com/600x400/?education,learning" alt="Bright and Positive Education Image">
+        <img src="DALL·E 2025-03-05 09.45.11 - A minimalist and modern text-based logo design for 'Best Lesson'. The logo uses only the Futura typeface in bold for clear readability. The design is .webp" alt="Best Lesson Logo">
     </div>
 </body>
 </html>
