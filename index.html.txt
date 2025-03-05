@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> <!--This is just adding a comment to see if GitHub desktop detects a change -->
+<head> 
+    <!-- This is just adding a comment to see if GitHub Desktop detects a change -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Lesson</title>
@@ -27,7 +28,7 @@
         }
         h1 {
             color: #333;
-            white-space: pre; /* Ensures spacing is maintained */
+            /* Removed white-space: pre; to avoid preserving extra spaces */
         }
         p {
             font-size: 18px;
@@ -37,7 +38,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Best    Lesson</h1>
+        <h1>Best Lesson</h1>
         <p>Best Lesson is an Edinburgh-based education start-up, helping teachers share great lesson ideas in short videos.</p>
         <img src="DALL·E 2025-03-05 09.45.11 - A minimalist and modern text-based logo design for 'Best Lesson'. The logo uses only the Futura typeface in bold for clear readability. The design is .webp" alt="Best Lesson Logo">
     </div>
